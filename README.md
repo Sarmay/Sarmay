@@ -1,10 +1,12 @@
-- 👋 Hi, I’m @Sarmay
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+### Hi there 👋
 
-<!---
-Sarmay/Sarmay is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I'm a FrontEnd full stack developer, and I'd like to make some contributions for FrontEnd open source and share some thoughts on my blog and github.
+
+### Find me 👀
+
+- 💻 <https://github.com/Sarmay>
+- 📖 <https://www.cnblogs.com/sarmay>
+- 📬 <282387881@qq.com>
+
+![Github Stats](https://github-readme-stats.vercel.app/api?username=Sarmay&show_icons=true&theme=dark&count_private=true)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sarmay&theme=dark&layout=compact)
