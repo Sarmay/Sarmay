@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sarmay developer signal console</title>
+  <desc id="desc">A colorful animated signal console for a Flutter and TypeScript developer.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08070E" />
+      <stop offset="0.52" stop-color="#111224" />
+      <stop offset="1" stop-color="#071820" />
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF" />
+      <stop offset="0.5" stop-color="#FF4ECD" />
+      <stop offset="1" stop-color="#FF8A00" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8A93A8" stroke-width="0.6" opacity="0.18" />
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="8" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#background)" />
+    <rect width="1200" height="360" fill="url(#grid)" />
+
+    <path d="M0 0H430L375 26H0Z" fill="#00E5FF" opacity="0.9" />
+    <path d="M0 0H265L225 18H0Z" fill="#FF4ECD" />
+    <path d="M1200 360H805L860 334H1200Z" fill="#FF8A00" opacity="0.92" />
+    <path d="M1200 360H1000L1035 342H1200Z" fill="#FF4ECD" />
+
+    <g opacity="0.7">
+      <path d="M48 70H310" stroke="#00E5FF" stroke-width="2" />
+      <path d="M48 78H225" stroke="#FF4ECD" stroke-width="2" />
+      <path d="M48 86H150" stroke="#FF8A00" stroke-width="2" />
+      <circle cx="48" cy="70" r="4" fill="#00E5FF" filter="url(#glow)" />
+      <circle cx="310" cy="70" r="4" fill="#00E5FF" />
+    </g>
+
+    <text x="48" y="52" fill="#7D8590" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="0">SYSTEM / CREATIVE ENGINEERING</text>
+
+    <g aria-label="Sarmay">
+      <text x="53" y="216" fill="#FF4ECD" opacity="0.7" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="900" letter-spacing="0">SARMAY</text>
+      <text x="47" y="210" fill="#00E5FF" opacity="0.72" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="900" letter-spacing="0">SARMAY</text>
+      <text x="50" y="213" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="900" letter-spacing="0">SARMAY</text>
+    </g>
+
+    <text x="52" y="252" fill="#B8C1EC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700" letter-spacing="0">CROSS-PLATFORM  /  FRONTEND  /  OPEN SOURCE</text>
+
+    <g transform="translate(52 286)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="0">
+      <rect width="116" height="28" fill="none" stroke="#00E5FF" stroke-width="1.5" />
+      <text x="13" y="19" fill="#00E5FF">FLUTTER</text>
+      <rect x="128" width="138" height="28" fill="none" stroke="#FF4ECD" stroke-width="1.5" />
+      <text x="141" y="19" fill="#FF4ECD">TYPESCRIPT</text>
+      <rect x="278" width="112" height="28" fill="none" stroke="#FF8A00" stroke-width="1.5" />
+      <text x="291" y="19" fill="#FF8A00">NODE.JS</text>
+    </g>
+
+    <g transform="translate(920 178)">
+      <circle r="126" fill="none" stroke="#34405B" stroke-width="1" />
+      <circle r="102" fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="8 10" opacity="0.75">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle r="76" fill="none" stroke="#FF4ECD" stroke-width="2" stroke-dasharray="3 12" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite" />
+      </circle>
+      <path d="M-144 0H144M0-144V144" stroke="#34405B" stroke-width="1" opacity="0.8" />
+      <path d="M-95-95L95 95M95-95L-95 95" stroke="#28334D" stroke-width="1" opacity="0.7" />
+      <circle r="49" fill="#0B1120" stroke="url(#signal)" stroke-width="3" filter="url(#glow)" />
+      <text x="0" y="13" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="42" font-weight="800" letter-spacing="0">&lt;S/&gt;</text>
+
+      <g fill="#00E5FF" filter="url(#glow)">
+        <circle cx="0" cy="-102" r="5">
+          <animate attributeName="r" values="4;7;4" dur="2.2s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="102" cy="0" r="5">
+          <animate attributeName="opacity" values="1;0.35;1" dur="1.7s" repeatCount="indefinite" />
+        </circle>
+      </g>
+      <g fill="#FF4ECD" filter="url(#glow)">
+        <circle cx="0" cy="76" r="5">
+          <animate attributeName="r" values="5;8;5" dur="2.8s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="-76" cy="0" r="5">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite" />
+        </circle>
+      </g>
+      <circle cx="72" cy="72" r="5" fill="#FF8A00" filter="url(#glow)">
+        <animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0">
+      <text x="1070" y="72" fill="#00E5FF">BUILD</text>
+      <text x="1085" y="101" fill="#7D8590">SHIP</text>
+      <text x="1085" y="266" fill="#7D8590">LEARN</text>
+      <text x="1055" y="294" fill="#FF8A00">REPEAT</text>
+    </g>
+
+    <rect x="0" y="0" width="1200" height="2" fill="url(#signal)">
+      <animate attributeName="y" values="0;358;0" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.65;0" dur="7s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
